@@ -1,25 +1,53 @@
 {
-    "chain_id": "feather-1",
-    "app_name": "test-3",
-    "app_binary_name": "test-3d",
-    "account_address_prefix": "terra",
-    "account_pubkey_prefix": "terrapub",
-    "validator_address_prefix": "terravaloper",
-    "validator_pubkey_prefix": "terravaloperpub",
-    "consensus_node_address_prefix": "terravalcons",
-    "consensus_node_pubkey_prefix": "terravalconspub",
-    "bond_denom": "uluna",
-    "bond_supply": "1000000000",
-    "unbonding_time": "1814400s",
-    "max_validators": 130,
-    "max_entries": 7,
-    "min_commission_rate": "0",
-    "lcd_enabled": true,
-    "lcd_swagger_enabled": true,
-    "lcd_port": 1317,
-    "lcd_enable_unsafe_cors": false,
-    "rpc_enabled": true,
-    "rpc_port": 26657,
-    "prometheus_enabled": true,
-    "prometheus_port": 26660
+  "chain_id": "test-3",
+  "app_name": "test-3",
+  "app_binary_name": "test-3d",
+  "account_address_prefix": "terra",
+  "account_pubkey_prefix": "terrapub",
+  "validator_address_prefix": "terravaloper",
+  "validator_pubkey_prefix": "terravaloperpub",
+  "consensus_node_address_prefix": "terravalcons",
+  "consensus_node_pubkey_prefix": "terravalconspub",
+  "bond_denom": "uluna",
+  "bond_supply": "100",
+  "accounts": [
+    {
+      "address": "terra1sy5k6hzs2kv2au40xr0zaa5yzpczauftxqyy85",
+      "coins": [
+        {
+          "denom": "uluna",
+          "amount": "200"
+        },
+        {
+          "denom": "eth",
+          "amount": "420"
+        }
+      ]
+    },
+    {
+      "address": "terra1p4qz97k3st0u4vm0ll0xgrs3u5v5yejy8v5kne",
+      "coins": [
+        {
+          "denom": "btc",
+          "amount": "69"
+        },
+        {
+          "denom": "uluna",
+          "amount": "300"
+        }
+      ]
+    }
+  ],
+  "unbonding_time": "1814400s",
+  "max_validators": 130,
+  "max_entries": 7,
+  "min_commission_rate": "0",
+  "lcd_enabled": true,
+  "lcd_swagger_enabled": true,
+  "lcd_port": 1317,
+  "lcd_enable_unsafe_cors": false,
+  "rpc_enabled": true,
+  "rpc_port": 26657,
+  "prometheus_enabled": true,
+  "prometheus_port": 26660
 }

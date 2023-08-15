@@ -9,7 +9,7 @@
   "consensus_node_address_prefix": "terravalcons",
   "consensus_node_pubkey_prefix": "terravalconspub",
   "bond_denom": "uluna",
-  "bond_supply": "100",
+  "bond_supply": "10000000",
   "accounts": [
     {
       "address": "terra1sy5k6hzs2kv2au40xr0zaa5yzpczauftxqyy85",
